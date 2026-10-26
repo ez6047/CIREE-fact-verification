@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+
+# Data stays local; keep the folder skeleton
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+
+# Model weights load from the Hugging Face Hub
+*.safetensors
